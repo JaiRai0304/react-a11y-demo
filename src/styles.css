@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  text-align: left;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.btn.btn-primary {
+  background-color: #006dcc;
+  border-color: #0c69ae;
+  text-shadow: 0 1px 0 #03497d;
+  margin: 2px;
+}
+.btn {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: 17px;
+  white-space: nowrap;
+  width: fit-content;
+  color: white;
+}
+button {
+  width: fit-content;
+}
+button:focus,
+btn-primary:focus {
+  outline: none !important;
+  border: 1px solid black !important;
+  box-shadow: 0 0px 10px black;
+}
+.main {
+  font-size: 28px;
+  display: flex;
+  height: calc(100vh - 230px);
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 225px; /* Set the width of the sidebar */
+  background-color: #f3f3f3;
+  text-align: left;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  border-right: solid 3px #ccc;
+  padding: 1em;
+}
+p {
+  font-size: 16px;
+}
+label {
+  font-size: 16px;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover,
+a:focus {
+  color: blue;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 22px;
+}
+.alertText {
+  color: red;
+  font-size: 12px;
+}
+
+.main > div:not(.sidenav) {
+  padding: 0 1em;
+  width: calc(100% - 230px);
+  height: calc(100vh - 230px);
+  overflow: scroll;
+  padding-bottom: 1em;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px;
+  background-color: #022037;
+  text-align: center;
+  width: 100%;
+  height: 115px;
+}
+.logo {
+  width: 350px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo + .logo {
+  margin-left: 1em;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #f3f3f3;
+  border-top: 3px solid #ccc;
+  color: black;
+  text-align: center;
+  z-index: 1;
+}
+
+.navHeader {
+  font-size: 20px;
+}
+
+.fakeTable1 {
+  width: 199px;
+}
+
+.fakeTable2 {
+  width: 275px;
+}
